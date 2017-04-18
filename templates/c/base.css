@@ -1,0 +1,197 @@
+/* Eric Meyer's CSS Reset v2.0 */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,	small, strike, strong, tt, var,	b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video
+{margin:0;padding:0;border:0;font:inherit;vertical-align: baseline;}
+blockquote, q {quotes: none; }
+blockquote:before, blockquote:after,q:before, q:after {	content: '';content: none; }
+table {border-collapse: collapse;border-spacing: 0;}
+
+/* Box Sizing v1 */
+*, *:before, *:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+/*  Box Sizing v2
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+*/
+
+/* Basic Styles 
+================================================== */
+html{overflow-y:scroll;font-size:100%;line-height:1.650em; /* or 28px */}
+body{background:#FAF9F8;font-family:"open_sansregular", Arial, sans-serif;color: #555;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: 100%;min-height: 100%;}
+
+/* Base Typography
+================================================== */
+/* Typography */
+ul, ol, dl, p, table, form, pre, hr { margin:0 0 28px 0;}
+h1, h2, h3, h4, h5 {color: #636363;line-height: 1.3em;margin-bottom:28px;font-family:'open_sansregular', Arial, sans-serif;	letter-spacing: 0.04em;}
+
+h1 { font-size: 210%; }
+h2 { font-size: 160%; }
+h3 { font-size: 140%; }
+h4 { font-size: 120%; }
+h5 { font-size: 110%; }
+em, i { font-style: italic; line-height: inherit; }
+strong, b { font-weight: bold; line-height: inherit; }
+.main{font-size:115%; }
+
+/* http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {background: #f9f9f9; border-left: 10px solid #ccc; margin: 1.8em 10px; padding: 1em 10px; quotes: "\201C""\201D";}
+blockquote:before {color: #ccc; content: open-quote;font-size: 4em; line-height: 0.1em; margin-right: 0.25em; vertical-align: -0.4em;}
+blockquote p { display: inline;}
+
+
+/* # Default Links
+================================================== */
+a, a:visited { color: #1295E2; text-decoration: underline; outline: 0; }
+a:hover, a:focus { color: #A44A50; } 
+
+/* Link Anchor Headings */
+h1 a,h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited{ color: #1295E2; text-decoration:none; outline: 0; }
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus,h3 a:hover, h3 a:focus { color: #A44A50; } 
+
+
+/* # Specific Links
+================================================== */
+.footer a,.footer a:visited { color: #cad5dd; text-decoration: underline; outline: 0; }
+.footer a:hover, .footer a:focus { color: #e3f0ec; }
+.footer p a,.footer p a:visited { line-height: #cad5dd; }
+
+/* #Lists
+================================================== */
+ul, ol {list-style: disc inside; margin-left: 30px; }
+ol { list-style: decimal; }
+ul ul, ul ol, ol ol, ol ul { margin: 8px 0 8px 30px; }
+
+/* #Images, helpers and fixes
+================================================== */
+img{max-width: 100%;height: auto; }
+
+/* Text Alignment */
+.align_right{text-align: right;}
+
+/* Media */
+iframe {width: 100%;margin-bottom:20px; }
+.video-wrapper{margin-bottom:20px;}
+
+/*Drop shadow */
+.drop-shadow{box-shadow:0 6px 15px 0 rgba(0, 0, 0, 0.20);}
+
+/* Fig caption fix */
+figure {padding:0; font-size: .750em; display: table;}
+figure img { display: block; width: 100%;}
+figcaption {display: table-caption; caption-side: bottom; background:#EBF0F3; padding:10px 0 10px 20px; margin-bottom:20px; }
+
+
+/* Iphone */
+a[href^=tel] { color: inherit; text-decoration: none; }
+input[type="submit"] { -webkit-appearance: none; -webkit-border-radius: 0; }
+
+/* JQuery scroll to top */
+.scrollup {width: 40px; height: 40px; opacity: 0.3; position: fixed; bottom:10px; right:5px; display: none; text-indent: -9999px; background: url("../g/icon_top.png") no-repeat; }
+.scrollup:hover { opacity: 0.9; cursor: pointer;}
+
+/*Reveal on scroll*/
+.revealOnScroll {opacity: 0;}
+
+/* Tabs */   
+ul.tabs{margin:0;padding: 0;list-style: none;}
+ul.tabs li{background: #f8f8f8;color: #222;display: inline-block;padding:10px 15px;cursor: pointer;}
+ul.tabs li.current{background: #EBF0F3;color: #222;}
+.tab-content{display: none;background: #EBF0F3;padding:0;}
+.tab-content.current{display: inherit;}  
+
+/* Social Media */
+.MarkupTwitterFeed{padding:0;margin:0;}
+ul.MarkupTwitterFeed{padding:0;margin:0 0 10px 0;}
+ul.MarkupTwitterFeed li{background: #FAF9F8; border-bottom: 1px solid #eaeaea;font-size:90%;list-style:none;margin:10px 0;padding:5px 30px 30px 30px;}
+ul.MarkupTwitterFeed li:hover{background: #f2f2f2;}
+.MarkupTwitterFeed .date{display: block; color: #a7a7a7;margin:20px 0 10px 0;padding:0;font-size:80%;}
+
+
+/* Buttons and Colours */
+a.button {background: #0097d9;border-radius: 3px;color: #fff;font-size: 85%;padding: 10px 20px;text-decoration: none;display: inline-block; margin-right:4px;}
+a.button:hover {background: #454545;color: #fff;}
+/* Buttons Colours */
+a.red{background: #a44a50;}
+a.green{background: #6C0;}
+a.orange{background: #F33;}
+
+/* Pagination */
+ul.MarkupPagerNav  { font-size: .85em; margin:0; padding: 0; list-style: none;  margin-left: 0px;}
+.MarkupPagerNav li { display: inline-block; background: #e6e7e2; margin:0; line-height: 1; }
+.MarkupPagerNav li a { display: block; padding: 0px; text-decoration: none; color: #6b6b6b; margin:0;}
+.MarkupPagerNav span { background: #0097D9; color: #fff; display: block; padding: 15px; border-radius:3px; }
+.MarkupPagerNav span:hover { background: #1BA8E5; color: #fff; display: block; padding: 15px;}
+.MarkupPagerNav li.next { padding: 0; background: none; font-size: 1.5em; }
+
+/* HIDE See: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+.structural, .hide { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px, 1px, 1px, 1px); }
+
+
+/* Plugins
+================================================== */
+
+/* Edit */
+
+a.edit{ background-color:#C03B3B; padding:5px 10px; color: #fff; text-decoration:none; float: right; margin-right:0px;border-radius:3px;font-size: 70%;}
+a.edit:hover{ background-color:#222;}
+
+.page_home a.edit{font-size: 70%; margin-top:-25px; margin-right: -20px; }
+
+
+/* Slick Nav overides */
+.slicknav_menu {font-size: 115%;}
+.slicknav_menu .slicknav_menutxt {font-size:100%;}
+.slicknav_nav .slicknav_row {margin:0;}
+.slicknav_nav .slicknav_item a {padding: 10px 0;}
+.slicknav_nav .slicknav_arrow { float:right; font-size:1.2em; font-weight:bold; background-color: rgba(255,255,255,0.1); padding:3px 13px; margin-top:-3px; border-radius:100%; }
+.slicknav_menu {background: #0097D9;}
+.slicknav_btn {background: #0097D9;}
+.slicknav_nav a {color: #fff; text-decoration: none;  padding: 12px 10px; margin: 2px 0px;}
+.slicknav_nav a:hover {color: #fff; background-color:#36bdf8;}
+.slicknav_menu .active{background: #36bdf8;}
+
+ 
+/* Fade-in Mastheads */
+.fadein{
+-webkit-animation: fadein 5s; -moz-animation: fadein 5s; -ms-animation: fadein 5s; -o-animation: fadein 5s; animation: fadein 5s;}
+/* A bit faster */
+.fadein-fast{-webkit-animation: fadein 1s;-moz-animation: fadein 1s; -ms-animation: fadein 1s; -o-animation: fadein 1s; animation: fadein 1s;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* #Helper Classes
+================================================== */
+.show-on-phones, .show-on-tablets, .hide-on-desktops {display: none !important;}
+.show-on-desktops {display: inherit !important;}
+@media (min-width: 768px) and (max-width: 979px){
+.hide-on-desktops, .show-on-tablets {display: inherit !important;}
+.show-on-desktops, .hide-on-tablets {display: none !important ;}}
+@media (max-width: 767px) {
+.hide-on-desktops, .show-on-phones {display: inherit !important;}
+.show-on-desktops, .hide-on-phones {display: none !important;}}
+
+@media (max-width: 768px) {.hide-on-tablets-portrait {display: none !important ;}}

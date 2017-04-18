@@ -1,0 +1,58 @@
+/* The Grid
+================================================== */
+.row, .col, .row:after, .col:after, .row:before, .col:before{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.row {*zoom: 1;}
+.row:before, .row:after {display: table;content: "";line-height: 0;}
+.row:after {clear: both;}
+.row {list-style-type: none;padding: 0; margin: 0;}
+.row > .row {clear: none;float: left; margin: 0 !important;}
+.col {float: left;width: 100%;}
+
+/*  Grid wrapper and padding */
+.wrapper {width: 100%; max-width: 1200px; margin:0 auto;}
+
+/* Add Gutter across all of page */
+.row {padding:0; margin: 20px;}
+
+/* Mobile First Grid */
+@media (min-width: 768px){
+/*  12 Col Grid   */ 
+.span_11{width:91.66667%;}    
+.span_10{width:83.33333%;}   
+.span_9{width:75%;}    
+.span_8{width:66.66667%;}      
+.span_7{width:58.33333%;}  
+.span_6{width:50%;}
+.span_5{width:41.66667%;}    
+.span_4{width:33.3333333333%;}    
+.span_3{width:25%;} 
+.span_2{width:16.6666666667%;}  
+.span_1{width:8.33333333333%;}    
+/*  Rows and Cols   */ 
+.row {margin: 0;}
+.col { padding:5px  30px;}  
+   
+
+.pull1{position: relative; left: -8.33333333333%;} 
+.pull2{position: relative; left: -16.6666666667%;} 
+.pull3{position: relative; left: -25%;} 
+.pull4{position: relative; left: -33.3333333333%;} 
+.pull5{position: relative; left: -41.66667%;} 
+.pull6{position: relative; left: -50%;} 
+.pull7{position: relative; left: -58.33333%;}
+.pull8{position: relative; left: -66.66667%;}
+.pull9{position: relative; left: -75%;}
+.pull10{position: relative; left: -83.33333%;}
+.pull11{position: relative; left: -91.66667%;}
+.push1{position: relative; left: 8.33333333333%;} 
+.push2{position: relative; left: 16.6666666667%;} 
+.push3{position: relative; left: 25%;} 
+.push4{position: relative; left: 33.3333333333%;} 
+.push5{position: relative; left: 41.66667%;} 
+.push6{position: relative; left: 50%;} 
+.push7{position: relative; left: 58.33333%;}
+.push8{position: relative; left: 66.66667%;}
+.push9{position: relative; left: 75%;}
+.push10{position: relative; left: 83.33333%;}
+.push11{position: relative; left: 91.66667%;}
+}
