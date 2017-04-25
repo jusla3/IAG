@@ -1,9 +1,8 @@
 
+Lazaro Dos Santos
 <<<<<<< HEAD
-Lazaro Dos Santos REV:3
+test
 =======
-Lazaro Dos Santos REV:5
->>>>>>> da8204cf5098fad565ebde20f363b7871283f171
 
 # IAG Website By Lazaro Dos Santos
 
@@ -35,3 +34,4 @@ This is simply a skeleton repo for a WordPress site. Use it to jump-start your W
 
 **Q:** Does this support WordPress in multisite mode?  
 **A:** Yes, as of WordPress v3.5 which was released in December, 2012.
+>>>>>>> b41eb18973da63cfc1b612e2bfe235eb42cb1d3e

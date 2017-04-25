@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
-Lazaro Dos Santos REV:3
-=======
-Lazaro Dos Santos REV:5
->>>>>>> da8204cf5098fad565ebde20f363b7871283f171
+Lazaro Dos Santos
 
 # IAG Website By Lazaro Dos Santos
 
