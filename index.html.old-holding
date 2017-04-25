@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>www.haringeyadvicepartnership.co.uk coming soon</title>
+<style type="text/css" media="all">
+*{
+margin:0;
+padding:0;
+}
+
+a, a:visited { color: #005893; text-decoration: none; outline: 0; }
+
+body{
+margin:0;
+padding:0;
+font-family:Arial,Helvetica,sans-serif;
+color:#4E4E4E;
+    font-size:60%;
+    }
+    
+    h1{line-height: 160%;}
+
+
+.logo {
+    max-width:950px;
+    height:65%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+    img{margin:15px 10px; }
+</style>
+
+</head>
+<body>
+
+<div class="logo">
+<img src="images/logo.png" >
+<h1>www.haringeyadvicepartnership.co.uk coming soon<br />General enquiries: 0203 8725 840
+<br />
+</h1>
+<h1>Download: Haringey Advice Partnership - <a href="images/outreach_schedule.pdf">Outreach Site Schedule</a> (PDF 394 KB).</h1>
+<a href="https://www.citizensadvice.org.uk/local/haringey/"><img src="images/cablogo.jpg"></a> 
+<a href="http://www.haringey.gov.uk"><img src="images/haringey.jpg" /></a> <a href="http://www.hailltd.org"><img src="images/haillogo.jpg" /></a> 
+
+</div>
+
+</div>
+
+
+</body>
+</html>

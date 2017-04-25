@@ -1,0 +1,26 @@
+# Exclude these files from the git repo
+LICENSE.txt
+site/assets
+site/assets/*
+site/assets/sessions
+site/assets/sessions/*
+site/assets/logs
+site/assets/files
+site/config-dev.php
+wire/
+wire/*
+
+
+# Hidden files
+*.sass-cache*
+*.DS_Store
+*Thumbs.db
+*~imageoptim*
+
+# Generated and/or artifact files
+sitemap.*
+REVISION
+
+# WP Super cache
+site/assets/cache
+site/assets/cache/*
