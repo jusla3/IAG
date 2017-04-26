@@ -9,7 +9,7 @@ site/assets/files
 site/config-dev.php
 wire/
 wire/*
-
+config.php
 
 # Hidden files
 *.sass-cache*
